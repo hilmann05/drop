@@ -11061,7 +11061,7 @@
         var number = 0;
         $(".submit").click(function () {
             $(".form").submit(function (e) {
-                $(".submit").attr("disabled", true);
+                //$(".submit").attr("disabled", true);
                 e.preventDefault();
                 var formValues = $(this).serialize() + "&submit=";
                 $.ajax({
